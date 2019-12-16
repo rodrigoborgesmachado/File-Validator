@@ -1,0 +1,10 @@
+R:\Personal Projects\File Validator\File Validator\bin\Debug\File Validator.exe.config
+R:\Personal Projects\File Validator\File Validator\obj\Debug\File Validator.csprojResolveAssemblyReference.cache
+R:\Personal Projects\File Validator\File Validator\obj\Debug\View.FO_Principal.resources
+R:\Personal Projects\File Validator\File Validator\obj\Debug\File_Validator.Properties.Resources.resources
+R:\Personal Projects\File Validator\File Validator\obj\Debug\File Validator.csproj.GenerateResource.Cache
+R:\Personal Projects\File Validator\File Validator\bin\Debug\File Validator.exe
+R:\Personal Projects\File Validator\File Validator\bin\Debug\File Validator.pdb
+R:\Personal Projects\File Validator\File Validator\obj\Debug\File Validator.exe
+R:\Personal Projects\File Validator\File Validator\obj\Debug\File Validator.pdb
+R:\Personal Projects\File Validator\File Validator\obj\Debug\View.TalaErros.resources

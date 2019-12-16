@@ -1,0 +1,35 @@
+<?xml version="1.0"?> 
+<config>
+	<header>
+		<field name="Tipo de registro" type="N" obs="Fixo '0'" size="1"/>
+		<field name="Data envio" type="N" obs="Data no formato 'aaaammdd'" size = "8"/>
+		<field name="Número do BIN " type="N" obs="BIN Cartão (Bank Identification Number)" size="6"/> 
+		<field name="Vago" type="AN" obs="Brancos" size="279"/> 
+		<field name="Número do Registro" type="N" obs="Número Sequencial do Registro" size="6"/> 
+	</header>
+	<body>
+		<field name="Tipo de registro" type="N" obs="Fixo '1'" size="1"/>
+		<field name="Tipo de Processo" type="N" obs="Fixo: '1' – Habilitação do produto no estabelecimento comercial" size="1"/>
+		<field name="Número do estabelecimento comercial Cielo" type="N" obs="Número da Filiação do estabelecimento comercial na Cielo (preenchido com no mínimo, 5 zeros à esquerda)" size="15"/>
+		<field name="Código do Produto" type="N" obs="Produtos" size="4"/>
+		<field name="Número do CNPJ ou CPF" type="N" obs="Número do CNPJ ou CPF do estabelecimento comercial (somente números com zeros à esquerda)" size="14"/>
+		<field name="Razão Social" type="AN"  obs="Razão Social do estabelecimento comercial" size="40"/>
+		<field name="DDD 1" type="N" obs="Informações para contato (preenchido com zeros à esquerda)" size="3"/>
+		<field name="Telefone 1" type="N" obs="Informações para contato (Se for celular com 9 dígitos, sem o primeiro)" size="8"/>
+		<field name="DDD 2" type="N" obs="Informações para contato (preenchido com zeros à esquerda)" size="3"/>
+		<field name="Telefone 2" type="N" obs="Informações para contato (Se for celular com 9 dígitos, sem o primeiro)" size="8"/>
+		<field name="Nome para Contato" type="AN"  obs="Informações para contato" size="30"/>
+		<field name="Endereço" type="AN"  obs="Endereço do estabelecimento comercial, inclusive número" size="50"/>
+		<field name="Bairro" type="AN"  obs="Bairro do estabelecimento comercial" size="30"/>
+		<field name="Cidade" type="AN"  obs="Cidade do estabelecimento comercial" size="30"/>
+		<field name="Unidade Federal" type="AN"  obs="Unidade Federal do estabelecimento comercial" size="2"/>
+		<field name="CEP" type="N" obs="CEP do estabelecimento comercial (somente números com zeros à esquerda)" size="8"/>
+		<field name="Vago" type="AN"  obs="Brancos" size="47"/>
+		<field name="Número do Registro" type="N" obs="Número Seqüencial do Registro" size="6"/>
+	</body>
+	<footer>
+		<field name="Tipo de registro" type="N" obs="Fixo '9'" size="1"/>
+		<field name="Vago" type="AN" obs="Brancos" size="293"/>
+		<field name="Número do Registro" type="N" obs="Número Seqüencial de Registros (Quantidade de Registros do arquivo)" size="6"/>
+	</footer>
+</config>
